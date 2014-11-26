@@ -8,10 +8,10 @@
     <dt>Introduction</dt>
     <dd>
       <p>This page explains how programmers can make other websites and software
-      interact with WhatDoTheyKnow via an "API".
+      interact with Sobanukirwa via an "API".
       </p>
 
-      <p>WhatDoTheyKnow does not have a full API yet, but we are gradually adding
+      <p>Sobanukirwa does not have a full API yet, but we are gradually adding
       lots of things that are similar in use to an API as they are requested.
       </p>
     </dd>
@@ -19,7 +19,7 @@
     <dt>Linking to new requests</dt>
     <dd>
       <p>To encourage your users to make links to a particular public authority, use URLs of the form
-      <%= link_to new_request_to_body_path(:url_name => "liverpool_city_council") , new_request_to_body_path(:url_name => "liverpool_city_council") %>.
+      <%= link_to new_request_to_body_path(:url_name => "minagri") , new_request_to_body_path(:url_name => "minagri") %>.
       These are the parameters you can add to those URLs, either in the URL or from a form.
 
       <ul>
@@ -32,7 +32,7 @@
 
     <dt>RSS (actually, Atom) feeds</dt>
     <dd>
-      <p>There are Atom feeds on most pages which list FOI requests, which you can
+      <p>There are Atom feeds on most pages which list ATI requests, which you can
       use to get updates and links in XML format. Find the URL of the Atom feed in
       one of these ways:
       <ul>
@@ -66,7 +66,7 @@
     <dt>Spreadsheet of all authorities</dt>
     <dd>
       <p>
-      A spreadsheet file listing every body in WhatDoTheyKnow is available:
+      A spreadsheet file listing every body in Sobanukirwa is available:
       <%= link_to "all-authorities.csv", all_public_bodies_csv_path %>
       </p>
 
